@@ -23,17 +23,17 @@
                 <div class="col-md-10 no-margin no-padding post">
                     <h1 class="title">
                         {{title}}
-
                     </h1>
+                    {{#author}}
+                        <h4 class="author-card-name"><a href="{{url}}">Author: {{name}}</a></h4>
+                    {{/author}}
                 </div>
                 <div class="col-md-2">
                     {{#if feature_image}}
                         <img src="{{feature_image}}" class="post-image"/>
                     {{/if}}
                 </div>
-                {{#author}}
-                    <h4 class="author-card-name"><a href="{{url}}">Author: {{name}}</a></h4>
-                {{/author}}
+
 
             </header>
 
