@@ -38,9 +38,11 @@
             {{content}}
         </section>
 
-        <footer class="col-xs-12 author">
+        <footer class="col-xs-12 author post-full-footer">
             
             <hr>
+                {{!-- Everything inside the #author tags pulls data from the author --}}
+                {{#author}}
 
                     <section class="author-card">
                         {{#if profile_image}}
