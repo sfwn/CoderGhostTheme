@@ -38,15 +38,14 @@
             {{content}}
         </section>
 
-        <footer class="col-xs-12 author post-full-footer">
+        <footer class="col-xs-12">
             
             <hr>
                 {{!-- Everything inside the #author tags pulls data from the author --}}
                 {{#author}}
-                    <img width="48px" height="48px" src="{{profile_image}}" alt="{{name}}" />
 
                     <section class="author-card-content">
-                        <h4 class="author-card-name"><a href="{{url}}">{{name}}</a></h4>
+                        <h4 class="author-card-name"><a href="{{url}}">Author: {{name}}</a></h4>
                         <p>Read <a href="{{url}}">more posts</a> by this author.</p>
                     </section>
 
