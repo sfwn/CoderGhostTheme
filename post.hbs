@@ -24,10 +24,14 @@
                     <h1 class="title">
                         {{title}}
                     </h1>
-                    {{#author}}
-                        <h4 class="author-card-name"><a href="{{url}}">By: {{name}}</a></h4>
-                        <h4 class="author-card-name">&nbsp;</h4>
-                    {{/author}}
+                    <div class="subhead">
+                        {{#author}}
+                            <a href="{{url}}">{{name}}</a>
+                        {{/author}}
+                        &nbsp;&bull;&nbsp;
+                        <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags
+                            prefix="<span class='fa fa-tags'></span>&nbsp;"}}
+                    </div>
                 </div>
                 <div class="col-md-2">
                     {{#if feature_image}}
