@@ -17,12 +17,12 @@
       "Personal"
     ]
   },
-  "license":"MIT",
+  "license": "MIT",
   "author": {
     "name": "Code Ghost Theme",
     "email": "mbejda@live.com",
     "url": "https://mbejda.com"
   },
-  "demo":"https://mbejda.com",
-  "homepage":"https://github.com/mbejda/CoderGhostTheme"
+  "demo": "https://mbejda.com",
+  "homepage": "https://github.com/mbejda/CoderGhostTheme"
 }
