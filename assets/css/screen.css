@@ -1814,3 +1814,70 @@ body:not(.post-template) .post-title {
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+
+/* Post Footer
+/* ---------------------------------------------------------- */
+
+.post-full-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3vw 0 6vw 0;
+    max-width: 840px;
+}
+
+.author-card {
+    display: flex;
+    align-items: center;
+}
+
+.author-card .author-profile-image {
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+.author-card-name {
+    margin: 0 0 2px 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.author-card-name a {
+    color: var(--darkgrey);
+    font-weight: 700;
+}
+
+.author-card-name a:hover {
+    text-decoration: none;
+}
+
+.author-card-content p {
+    margin: 0;
+    color: var(--midgrey);
+    line-height: 1.3em;
+}
+
+.post-full-footer-right {
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.author-card-button {
+    display: block;
+    padding: 9px 16px;
+    border: color(var(--midgrey) l(+20%)) 1px solid;
+    color: var(--midgrey);
+    font-size: 1.2rem;
+    line-height: 1;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: all ease 0.2s;
+}
+
+.author-card-button:hover {
+    border-color: var(--blue);
+    color: var(--blue);
+    text-decoration: none;
+}
